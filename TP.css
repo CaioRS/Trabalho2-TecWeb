@@ -8,17 +8,16 @@
 }
 	
 :root{
-	--bg-branco:rgb(255,255,255);
-	--nao-metal:rgb(180,210,100);
-	--gas-nobre:rgb(100,180,225);
-	--metal-alcalino:rgb(245,200,100);
-	--metal-alcalino-terroso:rgb(240,230,90);
-	--semimetal:rgb(110,200,190);
-	--halogenio:rgb(170,225,255);
-	--outros-metais:rgb(190,210,210);
-	--metal-transicao:rgb(245,175,175);
-	--lantanideo:rgb(150,225,225);
-	--actinidio:rgb(230,190,220);
+	--nao-metal:rgb(0, 181, 0);
+	--gas-nobre:rgb(7, 74, 112);
+	--metal-alcalino:rgb(237, 166, 12);
+	--metal-alcalino-terroso:rgb(94, 91, 0);
+	--semimetal:rgb(0, 0, 0);
+	--halogenio:rgb(223, 0, 252);
+	--outros-metais:rgb(51, 75, 75);
+	--metal-transicao:rgb(255, 0, 0);
+	--lantanideo:rgb(138, 0, 250);
+	--actinidio:rgb(60, 0, 45);
 }
 
 body{
@@ -108,7 +107,6 @@ main{
 
 section{
 	height:7em;
-	background:var(--bg-preto);	
 	border:.125rem solid;
 	border-radius:.25rem;	
 	line-height:1.25;
